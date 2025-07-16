@@ -8,7 +8,7 @@ int main() {
 float c, f;
 // It prompts the user to enter a temperature in Celsius and then calculates the equivalent temperature in Fahrenheit using the formula: F = (C * 9/5) + 32
 printf("Enter temperature in Celsius: ");
-scanf("%d", &c);
+scanf("%f", &c);
 
 // Finally, it prints the result to the console.
 printf("Temperature in Fahrenheit: %d\n", f = (c * 9 / 5) + 32);
