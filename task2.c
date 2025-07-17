@@ -4,11 +4,10 @@
 #include <stdio.h>
 
 int main() {
-    int salary, HRA, DA, TA, gross_salary;
-    float HRA_percentage, DA_percentage, TA_percentage;
+    float salary, HRA, DA, TA, gross_salary, HRA_percentage, DA_percentage, TA_percentage;
 
     printf("Enter basic salary: ");
-    scanf("%d", &salary);   
+    scanf("%f", &salary);   
 
     printf("Enter HRA percentage: ");
     scanf("%f", &HRA_percentage);
@@ -28,11 +27,11 @@ int main() {
 
     // Output the calculated values
     printf("Calculated allowances:\n");
-    printf("Gross salary: %d\n", gross_salary);
-    printf("HRA: %d\n", HRA);       
-    printf("DA: %d\n", DA);
-    printf("TA: %d\n", TA);
-    printf("Basic salary: %d\n", salary);
-    printf("Total salary: %d\n", gross_salary);
+    printf("Gross salary: %f\n", gross_salary);
+    printf("HRA: %f\n", HRA);       
+    printf("DA: %f\n", DA);
+    printf("TA: %f\n", TA);
+    printf("Basic salary: %f\n", salary);
+    printf("Total salary: %f\n", gross_salary);
 return 0;
 }

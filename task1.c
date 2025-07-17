@@ -11,7 +11,7 @@ printf("Enter temperature in Celsius: ");
 scanf("%f", &c);
 
 // Finally, it prints the result to the console.
-printf("Temperature in Fahrenheit: %d\n", f = (c * 9 / 5) + 32);
+printf("Temperature in Fahrenheit: %f\n", f = (c * 9 / 5) + 32);
 
 return 0;
 }
